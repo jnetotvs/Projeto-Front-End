@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+li{
+  	margin: 0 !important;
+    margin-left: 20px !important;
+}
+li a svg{
+    margin-left: 120px !important;
+    margin-top: 5px !important;
+    color: white;
+    background-color: #146c43;
+    border-radius: 17px;
+    
+}
+a img{
+    margin-top: 5px !important;
+    width: 28px; 
+    margin-left: 70px;
+    display: flex;
+}
+
+.d-flex{
+    margin-left: 20px !important;
+}
+.navbar-brand img{
+    width: 80px;
+}
+
+
+:root{
+    --bs-link-color: #198754;
+    --bs-link-hover-color: #146c43;
+}
+
+
+section {
+    scroll-margin-top: 6rem;
+}
+
+
+.btn{
+    --bs-btn-border-color:black;
+    --bs-btn-hover-bg: pink;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-active-bg: black;
+
+}
+.btn btn-default{
+    display: flex;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+
+/*tamanho do carrossel*/
+
+
+.carousel-item {
+    height: 500px;
+}
+
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31,31,31));
+    position: absolute;
+}
+
+
+.card-menu img {
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.card-img{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.contato {
+    margin-left: 450px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+

@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="pt-br">
 
-
 <head>
   <title>Flowers</title>
   <!-- Required meta tags -->
@@ -12,8 +11,6 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style1.css">
 </head>
-
-
 <body>
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
@@ -33,12 +30,12 @@
             <a class="nav-link" href="#about">Sobre nós</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="buque.html">Buquês</a>
+            <a class="nav-link" href="#menu">Buquês</a>
           </li>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="tropicais.html">Flores tropicais</a>
-        </li>
+        </li>  
         <li class="nav-item">
           <a class="nav-link" href="enfeites.html">Decorações</a>
         </li>
@@ -59,8 +56,9 @@
     </div>
   </nav>
 
+
   <main>
-    <!-- Carrousel -->
+    <!-- Carousel -->
     <header id="carouselflowers" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselflowers" data-bs-slide-to="0" class="active" aria-current="true"
@@ -106,8 +104,6 @@
         <span class="visually-hidden">Next</span>
       </button>
     </header>
-
-
     <!-- Quote -->
     <figure>
       <blockquote class="blockquote">
@@ -116,7 +112,6 @@
       <figcaption class="blockquote-footer text-center">
         <cite title="Source Title">Johnny De' Carli</cite>
       </figcaption>
-      
     </figure>
 
 
@@ -169,12 +164,79 @@
       </div>
     </section>
 
+  </main>
 
-    
+
+   <!-- menu -->
+   <section id="menu" class="container mt-5">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Buquês</button>
+      </li>
+    </ul>
+        <!-- cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+        <div class="col">
+          <div class="card card-menu">
+            <img src="img/buques.jpg" class="card-img-top" alt="flores">
+            <div class="card-body">
+              <h5 class="card-title">Buquê de rosas</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="img/margaridas.jpeg" class="card-img-top" alt="flores">
+            <div class="card-body">
+              <h5 class="card-title">Buquê de margaridas</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="img/girassois.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Buquê de girassois</h5>
+              <p class="card-text">$ 25,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="img/tulipas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Buquê de Tulipas</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="img/lirios.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Buquê de Lírios</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="img/orquideas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Buquê de Orquídeas</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+      </div></div>
+  </section>
+</main>
 
 
-  <!-- footer -->
-  <footer class="text-center bg-light p-5 mt-5 text-dark">
+ <!-- footer -->
+ <footer class="text-center bg-light p-5 mt-5 text-dark">
     <img width="80" src="img/logofloricultura.png" alt="logo">
     <p class="mt-2 mb-0 fw-bold"> Floricultura | Transformando sua experiência com flores</p>
     <p>(11) 99999-9999</p>
@@ -188,7 +250,5 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
 </body>
-
-
 </html>
 
