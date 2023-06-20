@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>Início</title>
 </head>
 <body>
@@ -63,7 +64,27 @@
             simboliza a gratidão, amizade e amor duradouro. <br>Ela é frequentemente usada em arranjos
             florais, <br>buquês de casamento e decorações festivas, <br>adicionando um toque de elegância e sofisticação.</p>
         </div>
+      <!-- <div>
+        <img class="like" src="./img/like.png" alt="">
+      </div> -->
+      <div class="like-btn">
+        <div class="conteudo">
+          <span class="coracao"></span>
+          <span class="like">Like</span>
+          <span class="numero"></span>
+        </div>
       </div>
+
+      <script>
+        $(document).ready(function(){
+          $('.conteudo').click(function(){
+            $('.conteudo').toggleClass("heart-active")
+            $('.like').toggleClass("heart-active")
+            $('.numero').toggleClass("heart-active")
+            $('.coracao').toggleClass("heart-active")
+          });
+        });
+      </script>
 
   <script src="./Js/script.js"></script>
 </body>
