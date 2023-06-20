@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+li{
+  	margin: 0 !important;
+    margin-left: 20px !important;
+}
+
+li a svg{
+    
+    margin-top: 5px !important;
+    color: white;
+    background-color: #146c43;
+    border-radius: 17px;
+    
+}
+a img{
+    margin-top: 5px !important;
+    width: 28px; 
+    display: flex;
+
+}
+
+.d-flex{
+    margin-left: 20px !important;
+}
+.navbar-brand img{
+    width: 80px;
+}
+
+.icon{
+    list-style-type: none ;
+    display: flex;
+    margin: 0;
+    margin-bottom: 10px;
+    gap:15px;
+}
+
+
+
+:root{
+    --bs-link-color: #198754;
+    --bs-link-hover-color: #146c43;
+}
+
+
+section {
+    scroll-margin-top: 6rem;
+}
+
+
+.btn{
+    --bs-btn-border-color:black;
+    --bs-btn-hover-bg: pink;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-active-bg: black;
+
+}
+.btn btn-default{
+    display: flex;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+
+/*tamanho do carrossel*/
+
+
+.carousel-item {
+    height: 500px;
+}
+
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31,31,31));
+    position: absolute;
+}
+
+.comprar{
+    border-radius: 8px;
+   border-width: 1px;
+
+}
+.comprar:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.card-menu img {
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.card-img{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.contato {
+    margin-left: 450px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+
+
+
+
+.imagem-esquerda .CarBuy:hover{
+    transform: scale(1.1);
+  }
+  
+  .imagem-direita .DescriImg2{
+   padding-left: 10px;
+  }
+  
+  #botao-entrar {
+    position: absolute;
+  }
+   #botao-entrar:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   }
+  
+  .container .caixa{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  
+  .container .caixa .submit-btn{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  
+  .ImgAstromelia{
+    border: 2px solid #000000;
+    border-radius: 50px;
+    position: relative;
+    top: 80px;
+    width: 500px;
+    height: 500px;
+    right: 250px;
+  }
+  .ImgScroll{
+    position: relative;
+    top: 180px;
+  }
+  .ImgScroll .TextAstromelia{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    position: relative;
+    text-align: right;
+    bottom: 215px;
+    right: 180px;
+  }
+  
+  .ImgAstromelia{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .TextAstromelia .paragrafoAstro{
+    position: relative;
+    text-align: center;
+    left: 555px;
+    bottom: 120px;
+  }
+  
+  .TextAstromelia .TituloAstro{
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    bottom: 150px;
+    width: auto;
+  }
+  
+  .TextAstromelia .TituloFlor{
+    position: relative;
+    right: 100px;
+    bottom: 150px;
+  }
+  
+  .Indic .IndicText{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative;
+
+    color: black;
+    bottom: 600px;
+    text-align: center;
+  }
+  /* .like{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 780px;
+    left: 1260px;
+  } */
+  
+  .like-btn{
+    display: inline-block;
+    position: relative;
+    bottom: 780px;
+    left: 1260px;
+    transform: translate();
+    width: auto;
+  }
+  
+  .conteudo{
+  
+    border: 2px solid #eae2e1;
+    padding: 13px 16px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .conteudo.heart-active{
+    border-color: #f9b9c4;
+    background: #fbd0d8;
+  }
+  
+  .conteudo .coracao{
+    height: 90px;
+    width: 90px;
+    background: url(coracao.png);
+    background-position: left;
+    background-size: 2900%;
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .coracao.heart-active{
+    background-position: right;
+    animation: animatee .8s steps(28) 1;
+  }
+  
+  @keyframes animatee{
+    from {
+      opacity: 0;
+      transform: translateY(-200px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .like{
+    margin-left: 30px;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+  }
+  
+  .like.heart-active{
+    color: #000;
+  }
+  .numero:before{
+    position: relative;
+    top: 3px;
+    content: '12';
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #9c9496;
+    margin-left: 8px;
+  }
+  
+  .numero.heart-active:before{
+    content: '13';
+    color: #000;
+  }
+  
+  
+  [data-anime]{
+    opacity: 0;
+    transition: 5s;
+  }
+  
+  [data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+  }
+  
+  [data-anime].animete{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
